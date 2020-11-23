@@ -35,10 +35,10 @@ app.post("/", (req, res) => {
     };
     const jsonData = JSON.stringify(data);
 
-    const url = "https://us7.api.mailchimp.com/3.0/lists/1cdd5f392d";
+    const url = "https://us7.api.mailchimp.com/3.0/lists/**REMOVED**";
     const options = {
         method: "POST",
-        auth: "lunatic:1d4cd4572597622fffad1029ef419e46-us7"
+        auth: "lunatic:**REMOVED**"
     }
 
     const request = https.request(url, options, (response) => {
